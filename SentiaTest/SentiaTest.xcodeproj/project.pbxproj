@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DC984C97A3196CE2B6A4E24 /* Pods_SentiaTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B13F47C5255FCD2BB24D25CA /* Pods_SentiaTest.framework */; };
+		BC091447213D254B00D2D1CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC091446213D254B00D2D1CB /* AppDelegate.swift */; };
+		BC09144C213D254B00D2D1CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC09144A213D254B00D2D1CB /* Main.storyboard */; };
+		BC09144E213D255500D2D1CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC09144D213D255500D2D1CB /* Assets.xcassets */; };
+		BC091451213D255600D2D1CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC09144F213D255600D2D1CB /* LaunchScreen.storyboard */; };
+		BC091459213D259200D2D1CB /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BC091458213D259200D2D1CB /* Podfile */; };
+		BC09145F213D266A00D2D1CB /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC09145B213D266A00D2D1CB /* AppController.swift */; };
+		BC091460213D266A00D2D1CB /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC09145C213D266A00D2D1CB /* ModelManager.swift */; };
+		BC091461213D266A00D2D1CB /* URLConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC09145D213D266A00D2D1CB /* URLConstants.swift */; };
+		BC091462213D266A00D2D1CB /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC09145E213D266A00D2D1CB /* WebService.swift */; };
+		BC091465213D2C7800D2D1CB /* PropertyListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC091464213D2C7800D2D1CB /* PropertyListVC.swift */; };
+		BC091467213D2D3200D2D1CB /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC091466213D2D3200D2D1CB /* AppUtils.swift */; };
+		BC091469213D348100D2D1CB /* PropertyDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC091468213D348100D2D1CB /* PropertyDetailVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68062A5C06DA1EDEF30BB094 /* Pods-SentiaTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SentiaTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-SentiaTest/Pods-SentiaTest.release.xcconfig"; sourceTree = "<group>"; };
+		A462EB6331F532C790A2E426 /* Pods-SentiaTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SentiaTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SentiaTest/Pods-SentiaTest.debug.xcconfig"; sourceTree = "<group>"; };
+		B13F47C5255FCD2BB24D25CA /* Pods_SentiaTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SentiaTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC091443213D254B00D2D1CB /* SentiaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SentiaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC091446213D254B00D2D1CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC09144B213D254B00D2D1CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC09144D213D255500D2D1CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC091450213D255600D2D1CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC091452213D255600D2D1CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC091458213D259200D2D1CB /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC09145B213D266A00D2D1CB /* AppController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
+		BC09145C213D266A00D2D1CB /* ModelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		BC09145D213D266A00D2D1CB /* URLConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLConstants.swift; sourceTree = "<group>"; };
+		BC09145E213D266A00D2D1CB /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		BC091464213D2C7800D2D1CB /* PropertyListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyListVC.swift; sourceTree = "<group>"; };
+		BC091466213D2D3200D2D1CB /* AppUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUtils.swift; sourceTree = "<group>"; };
+		BC091468213D348100D2D1CB /* PropertyDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyDetailVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC091440213D254B00D2D1CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DC984C97A3196CE2B6A4E24 /* Pods_SentiaTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		216C52F5478B25AB27F4C57D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A462EB6331F532C790A2E426 /* Pods-SentiaTest.debug.xcconfig */,
+				68062A5C06DA1EDEF30BB094 /* Pods-SentiaTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2E291DD762493D65A17CB192 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B13F47C5255FCD2BB24D25CA /* Pods_SentiaTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC09143A213D254B00D2D1CB = {
+			isa = PBXGroup;
+			children = (
+				BC091458213D259200D2D1CB /* Podfile */,
+				BC091445213D254B00D2D1CB /* SentiaTest */,
+				BC091444213D254B00D2D1CB /* Products */,
+				216C52F5478B25AB27F4C57D /* Pods */,
+				2E291DD762493D65A17CB192 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BC091444213D254B00D2D1CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC091443213D254B00D2D1CB /* SentiaTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC091445213D254B00D2D1CB /* SentiaTest */ = {
+			isa = PBXGroup;
+			children = (
+				BC091463213D2C7800D2D1CB /* ViewControllers */,
+				BC09145A213D266A00D2D1CB /* Utility */,
+				BC091446213D254B00D2D1CB /* AppDelegate.swift */,
+				BC09144A213D254B00D2D1CB /* Main.storyboard */,
+				BC09144D213D255500D2D1CB /* Assets.xcassets */,
+				BC09144F213D255600D2D1CB /* LaunchScreen.storyboard */,
+				BC091452213D255600D2D1CB /* Info.plist */,
+			);
+			path = SentiaTest;
+			sourceTree = "<group>";
+		};
+		BC09145A213D266A00D2D1CB /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				BC091466213D2D3200D2D1CB /* AppUtils.swift */,
+				BC09145B213D266A00D2D1CB /* AppController.swift */,
+				BC09145C213D266A00D2D1CB /* ModelManager.swift */,
+				BC09145D213D266A00D2D1CB /* URLConstants.swift */,
+				BC09145E213D266A00D2D1CB /* WebService.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		BC091463213D2C7800D2D1CB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC091464213D2C7800D2D1CB /* PropertyListVC.swift */,
+				BC091468213D348100D2D1CB /* PropertyDetailVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC091442213D254B00D2D1CB /* SentiaTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC091455213D255600D2D1CB /* Build configuration list for PBXNativeTarget "SentiaTest" */;
+			buildPhases = (
+				5A46DA5F30E4769ACD08A519 /* [CP] Check Pods Manifest.lock */,
+				BC09143F213D254B00D2D1CB /* Sources */,
+				BC091440213D254B00D2D1CB /* Frameworks */,
+				BC091441213D254B00D2D1CB /* Resources */,
+				CAF3F4A822C9E39992EFA153 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SentiaTest;
+			productName = SentiaTest;
+			productReference = BC091443213D254B00D2D1CB /* SentiaTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC09143B213D254B00D2D1CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Chirangi Dudhat";
+				TargetAttributes = {
+					BC091442213D254B00D2D1CB = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = BC09143E213D254B00D2D1CB /* Build configuration list for PBXProject "SentiaTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC09143A213D254B00D2D1CB;
+			productRefGroup = BC091444213D254B00D2D1CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC091442213D254B00D2D1CB /* SentiaTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC091441213D254B00D2D1CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC091451213D255600D2D1CB /* LaunchScreen.storyboard in Resources */,
+				BC09144E213D255500D2D1CB /* Assets.xcassets in Resources */,
+				BC091459213D259200D2D1CB /* Podfile in Resources */,
+				BC09144C213D254B00D2D1CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A46DA5F30E4769ACD08A519 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SentiaTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAF3F4A822C9E39992EFA153 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SentiaTest/Pods-SentiaTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SentiaTest/Pods-SentiaTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC09143F213D254B00D2D1CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC091465213D2C7800D2D1CB /* PropertyListVC.swift in Sources */,
+				BC091462213D266A00D2D1CB /* WebService.swift in Sources */,
+				BC091469213D348100D2D1CB /* PropertyDetailVC.swift in Sources */,
+				BC091461213D266A00D2D1CB /* URLConstants.swift in Sources */,
+				BC091460213D266A00D2D1CB /* ModelManager.swift in Sources */,
+				BC091447213D254B00D2D1CB /* AppDelegate.swift in Sources */,
+				BC091467213D2D3200D2D1CB /* AppUtils.swift in Sources */,
+				BC09145F213D266A00D2D1CB /* AppController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC09144A213D254B00D2D1CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC09144B213D254B00D2D1CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC09144F213D255600D2D1CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC091450213D255600D2D1CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC091453213D255600D2D1CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC091454213D255600D2D1CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC091456213D255600D2D1CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A462EB6331F532C790A2E426 /* Pods-SentiaTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SentiaTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.sentiatest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC091457213D255600D2D1CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68062A5C06DA1EDEF30BB094 /* Pods-SentiaTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SentiaTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.sentiatest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC09143E213D254B00D2D1CB /* Build configuration list for PBXProject "SentiaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC091453213D255600D2D1CB /* Debug */,
+				BC091454213D255600D2D1CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC091455213D255600D2D1CB /* Build configuration list for PBXNativeTarget "SentiaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC091456213D255600D2D1CB /* Debug */,
+				BC091457213D255600D2D1CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC09143B213D254B00D2D1CB /* Project object */;
+}
